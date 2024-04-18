@@ -104,8 +104,9 @@ h1{
 }
 
 .botaoLogin:hover{
-    width: 122px;
-    height: 32px;
+    width: 119px;
+    height: 29px;
+    background-color: lightgray;
 }
 
 .inputs{
