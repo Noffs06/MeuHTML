@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Seymour+One&display=swap');
+
+body{
+    background-image: url(img/fundo5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.login{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+.login a{
+     /* Deixa o texto minusculo */
+    text-transform: uppercase;
+    /* tirar o sublinhado */
+    text-decoration: none;
+    /* TAmanho da fonte */
+    font-size: 20px;
+    size: 20px;
+    /* Fonte da letra */
+    font-family: "Open Sans", cursive;
+    /* Espessura da letra */
+    font-weight: 400;
+    /* Cor da letra */
+    color: red;
+    /* cor do fundo da letra */
+    background-color: white;
+    /* tamanho do fundo da letra */
+    padding: 10px 30px;
+    /* arredondamento do fiundo da letra letra */
+    border-radius: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    color: black;
+    font-family: "Embed code", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes p{
+    font-size: 30px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+
+.informacoes a{
+    width: 8%;
+}
+
+.iconeRedeSocial{
+    width: 100%;
+}
+.iconeRedeSocial:hover{
+    width: 80%;
+}
+
+
+#inputNome{
+    /* largura */
+    width: 400px;
+    /* altura */
+    height: 40px;
+    /* arredondar a borda  */
+    border-radius: 4px;
+    border-style: none;
+    border: black solid 1px;
+}
+
+#inputEmail{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: black solid 1px; 
+}
+
+
+.botaoLogin{
+    width: 120px;
+    color: darkred;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botaoLogin:hover{
+    width: 122px;
+    height: 32px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 3%;
+
+}
+
