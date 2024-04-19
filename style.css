@@ -30,7 +30,7 @@ body{
     /* Espessura da letra */
     font-weight: 400;
     /* Cor da letra */
-    color: red;
+    color: darkslategrey;
     /* cor do fundo da letra */
     background-color: white;
     /* tamanho do fundo da letra */
@@ -38,6 +38,12 @@ body{
     /* arredondamento do fiundo da letra letra */
     border-radius: 15px;
 }
+
+.login a:hover{
+    background-color: lightgray;
+}
+
+
 
 h1{
     text-transform: uppercase;
@@ -97,7 +103,7 @@ h1{
 
 .botaoLogin{
     width: 120px;
-    color: darkred;
+    color: darkslategrey;
     background-color: white;
     height: 30px;
     border-radius: 5px;
